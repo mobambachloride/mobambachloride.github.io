@@ -11,7 +11,6 @@ function loadSVG() {
     if (xhr.readyState === 4 && xhr.status === 200) {
       var svg = document.getElementById("svg")
       svg.innerHTML = xhr.responseText;
-      svg.setAttribute("width", "1600px");
 
       var fylker = document.getElementById("g10207").children;
       for (var i = 0; i < fylker.length; i++) {
