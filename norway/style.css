@@ -1,0 +1,25 @@
+.text {
+    font-size: 2.5em;
+    position: fixed;
+}
+
+#number {
+  color: #00205B;
+  left: 40px;
+}
+
+#name {
+  color: #BA0C2F;
+  top: 60px;
+  left: 40px;
+}
+
+#name2 {
+  color: green;
+  top: 100px;
+  left: 40px;
+}
+
+path:hover {
+  cursor: pointer;
+}
